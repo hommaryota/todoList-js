@@ -1,0 +1,33 @@
+p{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header,.addli,#todo-app{
+  text-align: center;
+}
+
+#todo-app{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  & > div{
+    padding: 10px;
+    flex-basis: 47%;
+    background-color: lightblue;
+    border-radius: 10px;
+  }
+}
+
+.error{
+  color: red;
+}

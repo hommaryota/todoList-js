@@ -1,0 +1,42 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header, .addli, #todo-app {
+  text-align: center;
+}
+
+#todo-app {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#todo-app > div {
+  padding: 10px;
+  -ms-flex-preferred-size: 47%;
+      flex-basis: 47%;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */
